@@ -1,0 +1,44 @@
+body {
+  background-color: #000;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 1rem;
+  padding: 1rem 1rem 6rem 1rem;
+  background-color: #fff;
+}
+
+.home-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-grid img:nth-child(4n + 1) {
+  margin-top: 5rem;
+}
+
+.home-grid img:nth-child(4n + 3) {
+  margin-top: 5rem;
+}
+
+.home-grid img:hover {
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+footer h1 {
+  font-size: 5rem;
+}
