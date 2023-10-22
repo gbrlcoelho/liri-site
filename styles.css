@@ -10,9 +10,64 @@
 
 @font-face {
   font-family: "Gratina";
-  src: url("/assets/fonts/Gratina-Font-/Gratina-VGw6Z.otf") format("opentype");
+  src: url("src/assets/fonts/Gratina-Font-/Gratina-VGw6Z.otf")
+    format("opentype");
 }
 
 body {
   font-family: "Gratina", sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.instagram-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
