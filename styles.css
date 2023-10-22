@@ -76,3 +76,17 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+footer {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+footer h1 {
+  font-size: 5rem;
+}
